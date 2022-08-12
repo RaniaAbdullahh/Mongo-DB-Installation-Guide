@@ -5,14 +5,17 @@
 2. .Install MongoDB packages :
 
     ```sudo apt-get install mongodb```
-3. Confirm installation and get the version number :    ```mongo --version```
+3. Confirm installation and get the version number :   
+    ```mongo --version```
    - expected output: 
-     ![pic1](./captures/Capture01.PNG
-4. Run the server:  ```sudo service mongodb start ```    
+     ![pic1](./captures/Capture01.PNG)
+4. Run the server:
+     ```sudo service mongodb start ```    
      - expected output: 
      ![pic1](./captures/Capture02.PNG)
-5. Start mongo console: ```mongo```
-     - expected output: 
+5. Start mongo console:
+    ```mongo```
+    - expected output: 
      ![pic1](./captures/Capture03.PNG)
 6. Check the service status:
    ```sudo service mongodb status```
